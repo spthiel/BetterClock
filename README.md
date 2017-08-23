@@ -34,3 +34,8 @@ can be used to edit the line in the center
 Use a theme with transparent background or set the background to `transparent` and add the background url to the root as described at the top.
 
 Also just want to remind you: You can use gifs as background.
+
+# Screenshots:
+
+![Discord w/ plugin](http://i.imgur.com/3C96A7F.png)
+![Discord w/ plugin & transparent theme + custom background](http://i.imgur.com/xSJHBk3.png)
