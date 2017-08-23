@@ -183,6 +183,7 @@ var BetterClock = (function (){
 
 
 	ticktock = function() {
+    window.scrollTo(0,0);
 		var time = document.getElementById("clocktime");
     time.innerHTML = getTime();
 		var date = document.getElementById("clockdate");
