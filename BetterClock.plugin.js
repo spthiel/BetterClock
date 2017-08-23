@@ -155,40 +155,40 @@ var BetterClock = (function (){
   }
   
   
-	pad = function(x) {
-		return x < 10 ? '0'+x : x;
-	};
+  pad = function(x) {
+    return x < 10 ? '0'+x : x;
+  };
   
   function getTime(){
     
     date = new Date();
     
-		var h = date.getHours();
-		var m = pad(date.getMinutes());
-		var s = pad(date.getSeconds());
+    var h = date.getHours();
+    var m = pad(date.getMinutes());
+    var s = pad(date.getSeconds());
 
     var suffix = "AM";
     
-		if(h >= 12) {
-			h -= 12;
-			suffix = "PM";
-		}
-		if(h == 0) {
-			h = 12;
-		}
+    if(h >= 12) {
+      h -= 12;
+      suffix = "PM";
+    }
+    if(h == 0) {
+      h = 12;
+    }
     
     return "<b>" + h + ":" + m + "</b> " + suffix;
     
   }
 
 
-	ticktock = function() {
+  ticktock = function() {
     window.scrollTo(0,0);
-		var time = document.getElementById("clocktime");
+    var time = document.getElementById("clocktime");
     time.innerHTML = getTime();
-		var date = document.getElementById("clockdate");
+    var date = document.getElementById("clockdate");
     date.innerHTML = getDate();
-	};
+  };
 
   return BetterClock;
 })();
