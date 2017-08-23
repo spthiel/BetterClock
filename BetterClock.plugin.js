@@ -4,11 +4,11 @@ var BetterClock = (function (){
   var injectCss, inject, formatDate, pad, ticktock, interval;
 
   class BetterClock {
-    getName() { return "Character Counter"; }
+    getName() { return "BetterClock"; }
 
-    getDescription() { return "Adds a character counter to channel textarea."; }
+    getDescription() { return "Adds a nice clock to Discord."; }
 
-    getAuthor() { return "Jiiks, square"; };
+    getAuthor() { return "spthiel"; };
 
     getVersion() { return "1.0.0"; }
 
@@ -22,7 +22,6 @@ var BetterClock = (function (){
     }
 
     stop() {
-      $(".content textarea").off("keyup.BetterClock");
       BdApi.clearCSS("BetterClock");
     }
 
@@ -42,20 +41,20 @@ var BetterClock = (function (){
       #clockline{
         
         font-size: 10px;
-        width: 50%;
-        padding-left: 50%;
+        width: 70%;
+        padding-left: 30%;
         
       } 
         
       #clocktime {
         
-        font-size: 90px;
+        font-size: 4vw;
         
       } 
         
       #clockdate {
         
-        font-size: 60px;
+        font-size: 3.5vw;
         
       } 
         
