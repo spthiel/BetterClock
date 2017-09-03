@@ -142,8 +142,8 @@ var BetterClock = (function (){
     ];
     
     var dayNames = [
-      "MON", "TUE", "WED",
-      "THU", "FRI", "SAT", "SUN"
+      "SUN", "MON", "TUE", 
+      "WED", "THU", "FRI", "SAT" 
     ];
 
     var dayofweek = date.getDay();
