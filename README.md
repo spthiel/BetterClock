@@ -22,3 +22,10 @@ Also just want to remind you: You can use gifs as background.
 ### Discord with the plugin, the transparency theme, 3 ServerGrid theme, a custom background and custom css
 
 ![Discord w/ plugin & transparent theme + custom background](https://i.imgur.com/ZFalcNb.png)
+
+# 1
+## 2
+### 3
+#### 4
+##### 5
+###### 6
