@@ -15,5 +15,10 @@ Also just want to remind you: You can use gifs as background.
 
 # Screenshots:
 
-![Discord w/ plugin](http://i.imgur.com/3C96A7F.png)
-![Discord w/ plugin & transparent theme + custom background](https://i.imgur.com/Ru7FWyB.png)
+### Discord with the plugin without any other editing besides hiding personal data
+
+![Discord w/ plugin](https://i.imgur.com/5Zhb0oE.png)
+
+### Discord with the plugin, the transparency theme, 3 ServerGrid theme, a custom background and custom css
+
+![Discord w/ plugin & transparent theme + custom background](https://i.imgur.com/ZFalcNb.png)
