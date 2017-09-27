@@ -1,0 +1,60 @@
+//META{"name":"BetterClock","description":"Theme for the BetterClock by spthiel.","author":"spthiel","version":"1.0.0"}
+
+/*
+
+All values in here are set to the default value.
+
+*/
+
+/* -- Line between date & time -- */
+#clockline{
+        
+  width: 70%; /* width of the line relative to space */
+  padding-left: 30%; /* space on the left side of the line */
+
+} 
+
+/* -- Format of time -- */
+#clocktime {
+
+  font-size: 4vw; /* changes the fontsize of the time display */
+
+} 
+
+/* -- Format of date -- */
+#clockdate {
+
+  font-size: 3.5vw; /* changes the fontsize of the time display */
+
+} 
+
+/* -- Formats the overall content -- */
+#clockcontent {
+
+  color: white; /* changes the textcolor */
+  text-align: right; /* use only if you want to change the position of the text */
+
+} 
+
+.app {
+
+  height: 85% !important;
+  width: 80% !important;
+  /* change width & height of the resized appwindow */
+} 
+
+.frame:before {
+
+    background-image: linear-gradient(to bottom right, grey, black); 
+    /* 
+    change this to any image you want
+    add images with url(<imageurl>);
+    */
+    
+    /*
+    you can add filters with
+    filter: <filter>;
+    e.g.: filter: blur(3px); will blur the image a little bit
+    */
+
+} 
