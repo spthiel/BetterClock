@@ -32,12 +32,7 @@ var BetterClock = (function (){
   injectCss = function() {
     BdApi.clearCSS("appsize");
     BdApi.injectCSS("appsize",
-      `
-      :root{
-        --Background-image: linear-gradient(to bottom right, grey, black); none;
-        --screen-height: 1080px;
-      } 
-        
+      `        
       #clockline{
         
         font-size: 10px;
@@ -80,18 +75,22 @@ var BetterClock = (function (){
         width: 20%;
         
       } 
-      .frame {
+      
+      .frame:before {
         
-        background: black;
-        background-image: var(--Background-image) !important;
-        background-repeat: none !important;
-        background-size: cover !important;
-        max-height: 100% !important;
-        max-width: 100% !important;
-        height: var(--screen-height) !important;
-        min-width: 100% !important;
+          content: ' ';
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          background-image: linear-gradient(to bottom right, grey, black);
+          background-size: cover;
+          background-position: center;
+          z-index: -100;
         
       } 
+        
         
       .customappsize {
         
@@ -142,8 +141,8 @@ var BetterClock = (function (){
     ];
     
     var dayNames = [
-      "SUN", "MON", "TUE", 
-      "WED", "THU", "FRI", "SAT" 
+      "SUN", "MON", "TUE", "WED",
+      "THU", "FRI", "SAT"
     ];
 
     var dayofweek = date.getDay();
